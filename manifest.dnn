@@ -1,0 +1,88 @@
+<dotnetnuke version="5.0" type="Package">
+  <packages>
+    <package name="Eraware_SummitApiDemo" type="Module" version="00.01.00">
+      <friendlyName>DNN Summit API Demo</friendlyName>
+      <description>DNN Summit API Demo</description>
+      <iconFile>~/DesktopModules/SummitApiDemo/resources/images/module-icon.png</iconFile>
+      <owner>
+        <name>Daniel Valadas</name>
+        <organization>Eraware</organization>
+        <url>info@danielvaladas.com</url>
+        <email>info@danielvaladas.com</email>
+      </owner>
+      <license src="LICENSE">
+      </license>
+      <releaseNotes src="ReleaseNotes.html" />
+      <azureCompatible>True</azureCompatible>
+      <dependencies>
+        <dependency type="coreVersion">09.10.02</dependency>
+      </dependencies>
+      <components>
+        <component type="Assembly">
+          <assemblies>
+            <assembly>
+              <name>Eraware.Modules.SummitApiDemo.dll</name>
+              <path>bin</path>
+            </assembly>
+            <assembly>
+              <name>EntityFramework.dll</name>
+              <path>bin</path>
+              <version>6.4.4</version>
+            </assembly>
+            <assembly>
+              <name>EntityFramework.SqlServer.dll</name>
+              <path>bin</path>
+              <version>6.4.4</version>
+            </assembly>
+            <assembly>
+              <name>NSwag.Annotations.dll</name>
+              <path>bin</path>
+              <version>13.15.5</version>
+            </assembly>
+          </assemblies>
+        </component>
+        <component type="Module">
+          <desktopModule>
+            <moduleName>DNN Summit API Demo</moduleName>
+            <foldername>Eraware_SummitApiDemo</foldername>
+            <moduleDefinitions>
+              <moduleDefinition>
+                <friendlyName>DNN Summit API Demo</friendlyName>
+                <defaultCacheTime>0</defaultCacheTime>
+                <moduleControls>
+                  <moduleControl>
+                    <controlKey />
+                    <controlSrc>DesktopModules/SummitApiDemo/resources/views/view.html</controlSrc>
+                    <supportsPartialRendering>False</supportsPartialRendering>
+                    <controlTitle />
+                    <controlType>View</controlType>
+                    <iconFile />
+                    <helpUrl />
+                    <viewOrder>0</viewOrder>
+                  </moduleControl>
+                </moduleControls>
+              </moduleDefinition>
+            </moduleDefinitions>
+          </desktopModule>
+        </component>
+        <component type="Cleanup" version="00.01.00" glob="DesktopModules/SummitApiDemo/resources/**/*" />
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules/SummitApiDemo/resources</basePath>
+            <resourceFile>
+              <name>resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>bin</basePath>
+            <resourceFile>
+              <name>symbols.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
