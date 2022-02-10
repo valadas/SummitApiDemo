@@ -1,0 +1,3209 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/SummitApiDemo/SummitApiDemo/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Common.Globals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Common.Globals.html",
+          "hash": "JZeP/bI77bR94uD7ENWrPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Common.html",
+          "hash": "9GT2abXYAUrNIejSSDaCFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.ActionResults.FileResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.ActionResults.FileResult.html",
+          "hash": "/iy4rPC2KtUlxtIjD0c88g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.ActionResults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.ActionResults.html",
+          "hash": "Sad5tvabi9rE2C8IFqhy3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.CacheWebApiAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.CacheWebApiAttribute.html",
+          "hash": "QZ7ug+p/CLo6sTAeKVVGTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.ItemController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.ItemController.html",
+          "hash": "YaRZqDxTGaIRDU6EZuDkkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.LocalizationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.LocalizationController.html",
+          "hash": "j+xKxqTI5W7FXWbVspI9+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.ModuleApiController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.ModuleApiController.html",
+          "hash": "8q6qgJdMcC0UGOVEE3jBvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.ServiceRouteMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.ServiceRouteMapper.html",
+          "hash": "RugqPH65Igt31/tmEpPzNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.TestController.UserDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.TestController.UserDto.html",
+          "hash": "sXEprKnXaQcjcq5zuJVKXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.TestController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.TestController.html",
+          "hash": "Zohml3+vP/gsvrk2MpzF8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Controllers.html",
+          "hash": "yEQdQqMu6ksMcKiW+oawqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.DTO.CreateItemDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.DTO.CreateItemDTO.html",
+          "hash": "WpmBpCQacyWVpFW5rFFQmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.DTO.GetItemsPageDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.DTO.GetItemsPageDTO.html",
+          "hash": "zwkEgvFjlS+g5UrUp5xnKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.DTO.UpdateItemDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.DTO.UpdateItemDTO.html",
+          "hash": "K2MP9DDJ+5v/eTAWQKQt3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.DTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.DTO.html",
+          "hash": "BekZ/Ww65BaFvmefK+y8JA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Data.Entities.BaseEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Data.Entities.BaseEntity.html",
+          "hash": "4cc/xLZJ0tyZxgGYUi9X9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Data.Entities.IEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Data.Entities.IEntity.html",
+          "hash": "A9nYu0U+NgcjmyVWIT5KVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Data.Entities.Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Data.Entities.Item.html",
+          "hash": "7v7I+6faB5PT9PAkYWOn+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Data.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Data.Entities.html",
+          "hash": "Tr9irtcbpToRiG95Khegnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Data.ModuleDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Data.ModuleDbContext.html",
+          "hash": "mXRVMIPNHGw7X1xodLjAsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Data.Repositories.IRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Data.Repositories.IRepository-1.html",
+          "hash": "ow9pPwDwI3UJOW+p08X7xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Data.Repositories.PagedList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Data.Repositories.PagedList-1.html",
+          "hash": "QguXP8JM7Vkq6T+Qq3VMNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Data.Repositories.Repository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Data.Repositories.Repository-1.html",
+          "hash": "uSlT5AsHYwr00h2vGMx2ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Data.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Data.Repositories.html",
+          "hash": "yjjoctkCOXs4mz45xhTxIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Data.html",
+          "hash": "edAY/A7UKZJbqJMkt2kswg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Services.IItemService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Services.IItemService.html",
+          "hash": "9+2z+yZo6YqZhvn7rCii/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Services.ILocalizationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Services.ILocalizationService.html",
+          "hash": "L3nLo8YR6OvohbIaxbaKfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Services.ItemService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Services.ItemService.html",
+          "hash": "uLLNfY/8BVI8YUEr7C6Amg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Services.LocalizationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Services.LocalizationService.html",
+          "hash": "ja9J0L8Tq6WYk8q/0Roc0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Services.html",
+          "hash": "GuH1e5kuzSvC3ib4TFuOEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.Startup.html",
+          "hash": "uwdVExwA0Z2X6WzzTTxI+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.ViewModels.ItemViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.ViewModels.ItemViewModel.html",
+          "hash": "npAZ+iDSsDYgXtOc38ERHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.ViewModels.ItemsPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.ViewModels.ItemsPageViewModel.html",
+          "hash": "CXEJXdmf+F3pfp6AARaahg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.ViewModels.LocalizationViewModel.ModelValidationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.ViewModels.LocalizationViewModel.ModelValidationInfo.html",
+          "hash": "mThyUwKKUVxSeY7robrk6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.ViewModels.LocalizationViewModel.UIInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.ViewModels.LocalizationViewModel.UIInfo.html",
+          "hash": "rVkTf80tFAtGiqEdlqZZIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.ViewModels.LocalizationViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.ViewModels.LocalizationViewModel.html",
+          "hash": "Ww1yDkSXxsltB4RMd2m4dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.ViewModels.html",
+          "hash": "6iGqeaNpnTxNKm70++SuBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.SummitApiDemo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.SummitApiDemo.html",
+          "hash": "MHghWHB90gWD6Fz6XA++XQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "ipZ0KkjdFPXupv3NjPgPHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "TZ0L1XpoiNM12lzYwFgRXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/git.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/git.html",
+          "hash": "fR4PVJBtuE4wkf63VXJLyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "nfUjkolJ32tA2BTq3HXkng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/project-architecture.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/project-architecture.html",
+          "hash": "TGpfyHclJqmhNVVp62LyUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "E2zehL9R44b3qURfeD5rTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.apiexception._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.apiexception._constructor_.html",
+          "hash": "KxiPua/8yXvbGPSgVmXtnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.apiexception.headers.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.apiexception.headers.html",
+          "hash": "wG/8CflWqPpsRIKIfqTFvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.apiexception.isapiexception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.apiexception.isapiexception.html",
+          "hash": "kfyvWNZZ+t2KvFFO/Tn6kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.apiexception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.apiexception.html",
+          "hash": "RaABjkUMcQpOlWiGAMEUxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.apiexception.message.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.apiexception.message.html",
+          "hash": "rDLZcH27pg49E96SE0870g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.apiexception.response.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.apiexception.response.html",
+          "hash": "uxqUPJOz2nsgAmbBosrVCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.apiexception.result.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.apiexception.result.html",
+          "hash": "IBDGXaIz/WBaeN/F6qBmjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.apiexception.status.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.apiexception.status.html",
+          "hash": "sfaHLFQOGlcPM+77xNsvbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.argumentexception._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.argumentexception._constructor_.html",
+          "hash": "t0Ym3RQmVrYpXUy3rKgnjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.argumentexception.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.argumentexception.fromjs.html",
+          "hash": "jOKlqWRSnJSp5+fes59wqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.argumentexception.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.argumentexception.init.html",
+          "hash": "CAbC/uvujpihvjjZfikIZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.argumentexception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.argumentexception.html",
+          "hash": "+lEoYU+YpMG+OqYBgn0pxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.argumentexception.message.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.argumentexception.message.html",
+          "hash": "ZBL3HXOs5vpo4soV4Whr/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.argumentexception.paramname.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.argumentexception.paramname.html",
+          "hash": "6rHCIyh5pguj7FcpOLVHPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.argumentexception.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.argumentexception.tojson.html",
+          "hash": "87AsrSRpfDVZgZzAxDP+nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.clientbase._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.clientbase._constructor_.html",
+          "hash": "N2C8JLtn+h3Ulf1+DVKcMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.clientbase.getbaseurl.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.clientbase.getbaseurl.html",
+          "hash": "mh0+fx0FDdBGwM394UQ60w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.clientbase.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.clientbase.html",
+          "hash": "xukIcXdh1tvdnW4uHe2rEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.clientbase.transformoptions.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.clientbase.transformoptions.html",
+          "hash": "l5QTDjUVKUgJwl4mcno2FQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.configurerequest.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.configurerequest.html",
+          "hash": "bTY/HaG7zs1hvaLBrrzklA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.configurerequest.moduleid.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.configurerequest.moduleid.html",
+          "hash": "KONBK56xmehKyNJ7QOQVgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.createitemdto._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.createitemdto._constructor_.html",
+          "hash": "lRBYSpzlP0ouanD8H/33Xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.createitemdto.description.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.createitemdto.description.html",
+          "hash": "0Me/uaOwO2RTSWIVxP5Rew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.createitemdto.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.createitemdto.fromjs.html",
+          "hash": "m2veDUenuQUX8yacMfAL1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.createitemdto.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.createitemdto.init.html",
+          "hash": "XyknNSl8SK8uAnN2SCo4KQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.createitemdto.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.createitemdto.html",
+          "hash": "KVqjIMIr9B2gu1a4qMmNSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.createitemdto.name.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.createitemdto.name.html",
+          "hash": "v8QMgsZ4w33im3wMYdMpfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.createitemdto.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.createitemdto.tojson.html",
+          "hash": "d3Q2926dD87xZLxpr7PCwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.exception._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.exception._constructor_.html",
+          "hash": "TPeO7N8EMEML3A+M/Lho8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.exception.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.exception.fromjs.html",
+          "hash": "NgkgP6ElTrSSXD0r2CSmZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.exception.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.exception.init.html",
+          "hash": "7E9rLeEkPSil7Wes9e5Kuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.exception.innerexception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.exception.innerexception.html",
+          "hash": "+zS/4vfj1BHVoBgs71PyVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.exception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.exception.html",
+          "hash": "rLy0ZuYSkgGmZfZz+o5c4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.exception.message.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.exception.message.html",
+          "hash": "Qmg7k9yQfsZClbp3MpmzSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.exception.source.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.exception.source.html",
+          "hash": "UcqhNGWkfS2qltp37WXSqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.exception.stacktrace.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.exception.stacktrace.html",
+          "hash": "F4IjE0PL9TbZ2XDyJ6e1PA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.exception.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.exception.tojson.html",
+          "hash": "XFtCZIHxYBnZ/VZ9Il6Qhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.fileresponse.data.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.fileresponse.data.html",
+          "hash": "2WKqWvD2MniKWcQUsO3/ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.fileresponse.filename.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.fileresponse.filename.html",
+          "hash": "UnXOJaJiNaYI3wp7CnAfgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.fileresponse.headers.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.fileresponse.headers.html",
+          "hash": "mICpG39Q379Pp32ZIKmBlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.fileresponse.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.fileresponse.html",
+          "hash": "IDgQpBJB/BiSFbE/S73nAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.fileresponse.status.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.fileresponse.status.html",
+          "hash": "ome5w1OpNs5d7umzgjCRzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iargumentexception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iargumentexception.html",
+          "hash": "QZjCm0vAGcLjyiyq3VR8Zw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iargumentexception.message.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iargumentexception.message.html",
+          "hash": "J3hl6ZQOX58YqKE7LsY9hA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iargumentexception.paramname.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iargumentexception.paramname.html",
+          "hash": "sy7MJdX9C++LBskTqGimMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.icreateitemdto.description.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.icreateitemdto.description.html",
+          "hash": "EPJjDEa7zdw4AFI7hfzFtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.icreateitemdto.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.icreateitemdto.html",
+          "hash": "7bSVeTFUBFpU6EHHnhPnlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.icreateitemdto.name.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.icreateitemdto.name.html",
+          "hash": "97LzSalVd7bJbDqlRjhb8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iexception.innerexception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iexception.innerexception.html",
+          "hash": "eHlYdYUZX8SxCFIznSiq9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iexception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iexception.html",
+          "hash": "00T1fMDTXMFBIsAja5aJhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iexception.message.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iexception.message.html",
+          "hash": "Srfa16pOnUmDNSnKvyXaZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iexception.source.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iexception.source.html",
+          "hash": "dGjBOc8SMu3rV+YoBSNmng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iexception.stacktrace.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iexception.stacktrace.html",
+          "hash": "LgtQUqGuscr4Rux/LBNamg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iitemspageviewmodel.items.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iitemspageviewmodel.items.html",
+          "hash": "Zc+F+G8ueyR9Vy26wAHcwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iitemspageviewmodel.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iitemspageviewmodel.html",
+          "hash": "KAfNzPoAgPszlUJgkuFVCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iitemspageviewmodel.page.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iitemspageviewmodel.page.html",
+          "hash": "FqA5ndw6ahIV3Kp1YLVPXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iitemspageviewmodel.pagecount.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iitemspageviewmodel.pagecount.html",
+          "hash": "hMPECKez8VS7w3nO8IW9hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iitemspageviewmodel.resultcount.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iitemspageviewmodel.resultcount.html",
+          "hash": "cqgP+zDc3izWf1ht3WWqRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iitemviewmodel.description.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iitemviewmodel.description.html",
+          "hash": "GxIdLDFPIKAJM9yaHGfiwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iitemviewmodel.id.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iitemviewmodel.id.html",
+          "hash": "YhU5XV2OW1H2Zgg07JZuUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iitemviewmodel.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iitemviewmodel.html",
+          "hash": "uRGRATjlWclBGCnnNxDheA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iitemviewmodel.name.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iitemviewmodel.name.html",
+          "hash": "N2ZP5YqSXw0X+RemToq2NQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.ilocalizationviewmodel.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.ilocalizationviewmodel.html",
+          "hash": "JolBCeZlAAChMmpXy+0wEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.ilocalizationviewmodel.modelvalidation.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.ilocalizationviewmodel.modelvalidation.html",
+          "hash": "TWSzO+GN3z6HAThn5GE2bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.ilocalizationviewmodel.ui.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.ilocalizationviewmodel.ui.html",
+          "hash": "cxvgYlJ1cuQ4UVdk1cIgCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.imodelvalidationinfo.idgreaterthanzero.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.imodelvalidationinfo.idgreaterthanzero.html",
+          "hash": "e7obJh9PnLI/AAklY1VxFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.imodelvalidationinfo.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.imodelvalidationinfo.html",
+          "hash": "msY3kMq4Xs0GYgmbPKKk2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.imodelvalidationinfo.namerequired.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.imodelvalidationinfo.namerequired.html",
+          "hash": "ThKFvywbEkVqRqOAqz3tBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.isystemexception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.isystemexception.html",
+          "hash": "dBaT3a8HkifHWq4rR8GF/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemclient._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemclient._constructor_.html",
+          "hash": "XaWX3LgnEtIgVd5yStFIjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemclient.createitem.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemclient.createitem.html",
+          "hash": "Fo9WDiDz6+Aqo4qeAQSjvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemclient.deleteitem.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemclient.deleteitem.html",
+          "hash": "Xojcv2GhguDn9Xm6BmRUqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemclient.getitemspage.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemclient.getitemspage.html",
+          "hash": "MkPQuYgG4vTi8bddUI3b3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemclient.jsonparsereviver.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemclient.jsonparsereviver.html",
+          "hash": "8tygtQkS/VxT/kil8lEb1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemclient.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemclient.html",
+          "hash": "GxbMaL7ggG8b7eS8gXDY1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemclient.processcreateitem.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemclient.processcreateitem.html",
+          "hash": "1G89zPcq4xR1mN71OPJiIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemclient.processdeleteitem.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemclient.processdeleteitem.html",
+          "hash": "VAfJkfPYdFjUgdxoGfLh+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemclient.processgetitemspage.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemclient.processgetitemspage.html",
+          "hash": "/dK+sdYXkZlUmlvFLOaP4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemclient.processupdateitem.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemclient.processupdateitem.html",
+          "hash": "qwlOsqM62nd1HADGpoMPvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemclient.processusercanedit.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemclient.processusercanedit.html",
+          "hash": "RQOrz8spUSzsI1irsl1FAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemclient.updateitem.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemclient.updateitem.html",
+          "hash": "vzENxXdfKH+SB1h7LddDxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemclient.usercanedit.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemclient.usercanedit.html",
+          "hash": "/9lymwwm7uKZLTRxPaGnXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemspageviewmodel._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemspageviewmodel._constructor_.html",
+          "hash": "czxnm6ybF5EgDJXIuugw6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemspageviewmodel.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemspageviewmodel.fromjs.html",
+          "hash": "Z9NhubjGvdqY9dBft9KkBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemspageviewmodel.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemspageviewmodel.init.html",
+          "hash": "DpjjTAMm07F8VCnjpNqxvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemspageviewmodel.items.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemspageviewmodel.items.html",
+          "hash": "9Wp4OQdVOP51NqC1HeWxdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemspageviewmodel.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemspageviewmodel.html",
+          "hash": "/YaTv0vucLKxzG7I4NC8wg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemspageviewmodel.page.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemspageviewmodel.page.html",
+          "hash": "zmipSohu6/tsnDp/GB7Dmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemspageviewmodel.pagecount.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemspageviewmodel.pagecount.html",
+          "hash": "qMbsmTA+TEAwZOV5kfnJ4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemspageviewmodel.resultcount.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemspageviewmodel.resultcount.html",
+          "hash": "6zFi/80vkJi0CnUndhAG5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemspageviewmodel.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemspageviewmodel.tojson.html",
+          "hash": "Dew9A9uQ5ziDPUDjMy4SCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemviewmodel._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemviewmodel._constructor_.html",
+          "hash": "yY64kHIkOEzG35ptRbrs+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemviewmodel.description.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemviewmodel.description.html",
+          "hash": "NPJT6FhyM852W0izGRnV2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemviewmodel.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemviewmodel.fromjs.html",
+          "hash": "8FE7xI2gcsQf3YGr2dJR0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemviewmodel.id.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemviewmodel.id.html",
+          "hash": "kYGf98wHxtOPeLH0aM6sKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemviewmodel.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemviewmodel.init.html",
+          "hash": "PIzskFbq4Igd5nIoq/ZtbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemviewmodel.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemviewmodel.html",
+          "hash": "qwmjqGclAarf6TfXFl1Z2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemviewmodel.name.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemviewmodel.name.html",
+          "hash": "jaTppGavagz0+VP0X1PNFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.itemviewmodel.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.itemviewmodel.tojson.html",
+          "hash": "mMYMwybK1jWIA9OkTn37uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iuiinfo.additem.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iuiinfo.additem.html",
+          "hash": "uPClwImaO5VDPVxbNaWuVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iuiinfo.cancel.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iuiinfo.cancel.html",
+          "hash": "kC/pvHt2fjA/f56RTb9Ufg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iuiinfo.create.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iuiinfo.create.html",
+          "hash": "j9KDAsovXOoXXNkCFBtSqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iuiinfo.delete.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iuiinfo.delete.html",
+          "hash": "NNoQUVUfp0tqpHdF/5KCrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iuiinfo.deleteitemconfirm.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iuiinfo.deleteitemconfirm.html",
+          "hash": "yhaz3D0uJstGiayM9y3zNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iuiinfo.description.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iuiinfo.description.html",
+          "hash": "f6nnyWDyF9Dt6dVmJQqnqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iuiinfo.edit.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iuiinfo.edit.html",
+          "hash": "xpSd7cHvH7AINjcT6+d7Vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iuiinfo.loadmore.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iuiinfo.loadmore.html",
+          "hash": "QfiNl+VrYPCLdrS3ylwElg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iuiinfo.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iuiinfo.html",
+          "hash": "x6f+RlIFRZgVweZXQKWXOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iuiinfo.name.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iuiinfo.name.html",
+          "hash": "CmmWuETqrmJeX1segKiXww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iuiinfo.no.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iuiinfo.no.html",
+          "hash": "gVi3+AqSVsIIEh6Hq4MbRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iuiinfo.save.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iuiinfo.save.html",
+          "hash": "TdhDpmblUv0tkWqOWlwY8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iuiinfo.searchplaceholder.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iuiinfo.searchplaceholder.html",
+          "hash": "nLkk2AViaD+T5QfOFw/V7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iuiinfo.shownitems.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iuiinfo.shownitems.html",
+          "hash": "cG+VCrb2aXyuiiMy7F1jKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iuiinfo.yes.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iuiinfo.yes.html",
+          "hash": "XT2ZtpvAVNJ+QWYr/9RK+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iupdateitemdto.id.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iupdateitemdto.id.html",
+          "hash": "7fHWIw4ieAychE3ZqxGjPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.iupdateitemdto.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.iupdateitemdto.html",
+          "hash": "YWecC02U2P6ptXPK42ZboA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.localizationclient._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.localizationclient._constructor_.html",
+          "hash": "u+/UINUjcIfZvBh6GiLUAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.localizationclient.getlocalization.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.localizationclient.getlocalization.html",
+          "hash": "00pzdIIZ52nAuPfueEx/3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.localizationclient.jsonparsereviver.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.localizationclient.jsonparsereviver.html",
+          "hash": "wUn0LQg4F5W0fyg36Ofejg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.localizationclient.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.localizationclient.html",
+          "hash": "0dhkT2Yy6vfLua9WFlYc+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.localizationclient.processgetlocalization.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.localizationclient.processgetlocalization.html",
+          "hash": "gMbgDWs6we05hhme5xOMuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.localizationviewmodel._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.localizationviewmodel._constructor_.html",
+          "hash": "G+S3cFbZXiQCYxoqfLdPaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.localizationviewmodel.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.localizationviewmodel.fromjs.html",
+          "hash": "9Amxmel3l4YzVfT+8WhPYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.localizationviewmodel.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.localizationviewmodel.init.html",
+          "hash": "S0Pb3e4/TOLdB57LGRj4tA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.localizationviewmodel.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.localizationviewmodel.html",
+          "hash": "cRKGjjxHy/XuA7jyHyXHdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.localizationviewmodel.modelvalidation.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.localizationviewmodel.modelvalidation.html",
+          "hash": "AnHdcN4KFC4tO2g70CfOqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.localizationviewmodel.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.localizationviewmodel.tojson.html",
+          "hash": "XSBOqSn647r/weV6B4/5Xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.localizationviewmodel.ui.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.localizationviewmodel.ui.html",
+          "hash": "S34UqQzrlBOdlx+RbIFGQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.html",
+          "hash": "TiCi7PrZIeNE1rCyrJ5u6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.modelvalidationinfo._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.modelvalidationinfo._constructor_.html",
+          "hash": "JKOo+Ov4/KJzU0ZfFK+SBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.modelvalidationinfo.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.modelvalidationinfo.fromjs.html",
+          "hash": "CeqBCtjXJB9f1ZarekTZaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.modelvalidationinfo.idgreaterthanzero.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.modelvalidationinfo.idgreaterthanzero.html",
+          "hash": "QFEarkk9Q0Wa4lru+rmNFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.modelvalidationinfo.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.modelvalidationinfo.init.html",
+          "hash": "DycGBNJ5x2kygZztacfvFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.modelvalidationinfo.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.modelvalidationinfo.html",
+          "hash": "8/Ht0JHahnr7vbDyTApfjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.modelvalidationinfo.namerequired.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.modelvalidationinfo.namerequired.html",
+          "hash": "In0w7BiGA0oTtVHr8+hXPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.modelvalidationinfo.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.modelvalidationinfo.tojson.html",
+          "hash": "3PJ2gtat8Ou722I9oGzd6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.systemexception._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.systemexception._constructor_.html",
+          "hash": "g+PTFql83sh6cxuU/bEO/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.systemexception.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.systemexception.fromjs.html",
+          "hash": "Ihq4HnVtuQoihXuLv5wm0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.systemexception.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.systemexception.init.html",
+          "hash": "TbqCc/yHnIim6aOeDXHrSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.systemexception.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.systemexception.html",
+          "hash": "ynUm1wwte2J6SeAA516qCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.systemexception.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.systemexception.tojson.html",
+          "hash": "I/X0nUQ2O9UM6oUQn4QGow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient._constructor_.html",
+          "hash": "Fr/nLdmCyMMhBmW94PaIPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.get.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.get.html",
+          "hash": "eeiQYC0k/7TPZG9Jo2Armw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.getlistofstring.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.getlistofstring.html",
+          "hash": "wtcBa+328ZvCF+y/FZJ/3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.getlogo.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.getlogo.html",
+          "hash": "P/siYaSRaEDaXzUOmezOCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.getmessage.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.getmessage.html",
+          "hash": "GuPUV0G7jtmr/ra2jnX2VA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.getsanitized.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.getsanitized.html",
+          "hash": "lJ3lyqscYduByIiABBQxDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.getslow.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.getslow.html",
+          "hash": "4pePVJOKa2P6/7vVbuZ58Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.getslowwithdatacache.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.getslowwithdatacache.html",
+          "hash": "w+mk7IhhQGLXSUzALC0lRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.getslowwithoutputcache.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.getslowwithoutputcache.html",
+          "hash": "2SSQZtt5Hf9mIZnmMpQhvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.getstring.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.getstring.html",
+          "hash": "HPF/8baydFrx0oUizhabvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.getsync.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.getsync.html",
+          "hash": "2edDhfsisu394A9y5Nc0wQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.getvoid.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.getvoid.html",
+          "hash": "tlFr84aPsXWvBTRKhyaMWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.jsonparsereviver.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.jsonparsereviver.html",
+          "hash": "m3kQv15dG6prszXORp+cew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.html",
+          "hash": "I8twNVF7s9OqNK/EJB553Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.nosqlinjection.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.nosqlinjection.html",
+          "hash": "rizvBIs7pkSNMzOgyb5klQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.processget.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.processget.html",
+          "hash": "0EtreUPPrll7V9KZ9Le2nA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.processgetlistofstring.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.processgetlistofstring.html",
+          "hash": "s5j8Jvz8JFHfFccVCHnQAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.processgetlogo.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.processgetlogo.html",
+          "hash": "yRAY8IuL+l+mWl4ZMTFwrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.processgetmessage.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.processgetmessage.html",
+          "hash": "E1fJNpm2QLj9RmA3Td1ePw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.processgetsanitized.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.processgetsanitized.html",
+          "hash": "4oD3nhHLx4+6f170GhUO1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.processgetslow.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.processgetslow.html",
+          "hash": "yvqlKksMkX9OFl0w7EUUkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.processgetslowwithdatacache.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.processgetslowwithdatacache.html",
+          "hash": "5zu2cFBirfRGm69EIy6H1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.processgetslowwithoutputcache.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.processgetslowwithoutputcache.html",
+          "hash": "MuaLCj2KnHIvS4EUyFSD8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.processgetstring.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.processgetstring.html",
+          "hash": "AGqfX7a7jkEqufvbiYWcHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.processgetsync.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.processgetsync.html",
+          "hash": "KWQtKrSRDv7wUSRKQrrpDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.processgetvoid.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.processgetvoid.html",
+          "hash": "+0FU80U3q1ZTWkuh5W9Lpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.processnosqlinjection.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.processnosqlinjection.html",
+          "hash": "bVfMIQ0pING8c0vO/bYusg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.processsqlinjection.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.processsqlinjection.html",
+          "hash": "y7ZP47uvRdoskchwtJSt7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.testclient.sqlinjection.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.testclient.sqlinjection.html",
+          "hash": "BWNQe5MrP/p0wyoBFgofnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.uiinfo._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.uiinfo._constructor_.html",
+          "hash": "O0+dPY/pSC2DRz7Y/8at+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.uiinfo.additem.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.uiinfo.additem.html",
+          "hash": "iUnYr8ixfJNEm6CHIHLTbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.uiinfo.cancel.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.uiinfo.cancel.html",
+          "hash": "eWfePO6TLZAY5aCP3ZPPsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.uiinfo.create.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.uiinfo.create.html",
+          "hash": "d5EfG8DV15Ig07HsZaTSKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.uiinfo.delete.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.uiinfo.delete.html",
+          "hash": "OzC6cXu3RhMbHyQYsmGuRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.uiinfo.deleteitemconfirm.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.uiinfo.deleteitemconfirm.html",
+          "hash": "+i7GSAIIv56j3ET6NRivmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.uiinfo.description.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.uiinfo.description.html",
+          "hash": "vz3LB75NGox1fpRMECuivQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.uiinfo.edit.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.uiinfo.edit.html",
+          "hash": "bAw7jBm9v7yuAjt/rO2YJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.uiinfo.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.uiinfo.fromjs.html",
+          "hash": "Mdm/x/74YJJQUbJrIbSODQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.uiinfo.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.uiinfo.init.html",
+          "hash": "KNQmhP6Q7a0sRdFV0BfaSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.uiinfo.loadmore.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.uiinfo.loadmore.html",
+          "hash": "jyeSw9hPgU/DL5qFexnXmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.uiinfo.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.uiinfo.html",
+          "hash": "aYCTTgq7HjiZVdETPhJnLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.uiinfo.name.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.uiinfo.name.html",
+          "hash": "slzB+7qfU76KE9PCczVHQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.uiinfo.no.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.uiinfo.no.html",
+          "hash": "VrriSC0CAw7lvdia/kHnFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.uiinfo.save.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.uiinfo.save.html",
+          "hash": "XW4pB9VRxigebF8R6z/vxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.uiinfo.searchplaceholder.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.uiinfo.searchplaceholder.html",
+          "hash": "MB/cbc3FRDYp8AlZBk0cKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.uiinfo.shownitems.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.uiinfo.shownitems.html",
+          "hash": "ngM4w2noZHZ1ZcSX2JRByg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.uiinfo.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.uiinfo.tojson.html",
+          "hash": "XdZiFKIuZ5KT2cmK8CYaJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.uiinfo.yes.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.uiinfo.yes.html",
+          "hash": "J4U7PDFdXQX8KBzZ9c/vMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.updateitemdto._constructor_.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.updateitemdto._constructor_.html",
+          "hash": "2sT8wYsArLIb5nhk3rWjSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.updateitemdto.fromjs.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.updateitemdto.fromjs.html",
+          "hash": "7bpMJDGIybLw9T2wXrjy0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.updateitemdto.id.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.updateitemdto.id.html",
+          "hash": "hZViNx/xNtheTB9JRrdf5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.updateitemdto.init.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.updateitemdto.init.html",
+          "hash": "h8SLZ7s3NQpelkpArzuImA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.updateitemdto.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.updateitemdto.html",
+          "hash": "2/573JbpQQujyhmHC9ZtJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/era-summitapidemo.updateitemdto.tojson.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/era-summitapidemo.updateitemdto.tojson.html",
+          "hash": "YE7Je4eLMj1kepCIP2SoXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "client/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/index.html",
+          "hash": "wjE72LHNRenIXnGC9FuHYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "client/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/toc.html",
+          "hash": "bzc5q91Up8NU4kOwJXal5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "components/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "components/index.html",
+          "hash": "F10MwqhSvYLDn5yMqp6ZBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "components/my-component.md",
+      "output": {
+        ".html": {
+          "relative_path": "components/my-component.html",
+          "hash": "0/9idE+Ut7otccQBG12vpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "components/my-create.md",
+      "output": {
+        ".html": {
+          "relative_path": "components/my-create.html",
+          "hash": "cXR7infjTE0Co89/ZuN+4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "components/my-edit.md",
+      "output": {
+        ".html": {
+          "relative_path": "components/my-edit.html",
+          "hash": "VJ7VJccbLfOnd9b5/8aGLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "components/my-item-details.md",
+      "output": {
+        ".html": {
+          "relative_path": "components/my-item-details.html",
+          "hash": "vQIybqN31MKPH3k8HIgjXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "components/my-items-list.md",
+      "output": {
+        ".html": {
+          "relative_path": "components/my-items-list.html",
+          "hash": "ylEyGisyJtxwOoUxJmGaYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "components/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "components/toc.html",
+          "hash": "cTtxrMM5YtDOIo1mlNjFkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Package.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/Package.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/create-beta-release.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/create-beta-release.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/create-develop-branch.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/create-develop-branch.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/create-pull-request.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/create-pull-request.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/create-release.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/create-release.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/initial-commit.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/initial-commit.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/install-module.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/install-module.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "SkSXKsCrOGZxol+9TUkp8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "rest/rest-api.md",
+      "output": {
+        ".html": {
+          "relative_path": "rest/rest-api.html",
+          "hash": "U2bHl8jQEysRpS0oziOo0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "rest/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "rest/toc.html",
+          "hash": "G9YMZ1tBN6dUh3wjAxz+lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "vJDvCT6x/U2SiHeda+VXxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 208,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 39,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
