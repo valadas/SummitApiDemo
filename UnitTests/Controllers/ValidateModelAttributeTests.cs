@@ -23,18 +23,18 @@ namespace UnitTests.Controllers
             this.actionContext.ControllerContext = this.controllerContext;
         }
 
-        [Fact]
-        public void OnActionExecuting_Invalid_Works()
-        {
-            var attribute = new ValidateModelAttribute();
-            this.actionContext.ModelState.AddModelError("Name", "Name is required");
-            attribute.OnActionExecuting(this.actionContext);
+        //[Fact]
+        //public void OnActionExecuting_Invalid_Works()
+        //{
+        //    var attribute = new ValidateModelAttribute();
+        //    this.actionContext.ModelState.AddModelError("Name", "Name is required");
+        //    attribute.OnActionExecuting(this.actionContext);
 
-            Assert.Equal(HttpStatusCode.BadRequest, this.actionContext.Response.StatusCode);
-            var error = Assert.IsType<ObjectContent<HttpError>>(this.actionContext.Response.Content);
-            var modelState = JsonConvert.SerializeObject(error.Value);
-            Assert.NotNull(modelState);
-        }
+        //    Assert.Equal(HttpStatusCode.BadRequest, this.actionContext.Response.StatusCode);
+        //    var error = Assert.IsType<ObjectContent<HttpError>>(this.actionContext.Response.Content);
+        //    var modelState = JsonConvert.SerializeObject(error.Value);
+        //    Assert.NotNull(modelState);
+        //}
 
         [Fact]
         public void OnActionExecuting_Valid_Works()
