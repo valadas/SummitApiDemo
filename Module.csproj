@@ -54,7 +54,10 @@
   <ItemGroup>
     <Compile Include="Common\Globals.cs" />
     <Compile Include="Common\Extensions\IQueryableExtensions.cs" />
+    <Compile Include="Controllers\ActionResults\FileResult.cs" />
+    <Compile Include="Controllers\CacheWebApiAttribute.cs" />
     <Compile Include="Controllers\LocalizationController.cs" />
+    <Compile Include="Controllers\TestController.cs" />
     <Compile Include="DTO\GetItemsPageDTO.cs" />
     <Compile Include="Controllers\ValidateModelAttribute.cs" />
     <Compile Include="Data\Entities\BaseEntity.cs" />
@@ -119,6 +122,9 @@
       <Version>9.10.2</Version>
     </PackageReference>
     <PackageReference Include="DotNetNuke.Web">
+      <Version>9.10.2</Version>
+    </PackageReference>
+    <PackageReference Include="DotNetNuke.Web.Mvc">
       <Version>9.10.2</Version>
     </PackageReference>
     <PackageReference Include="DotNetNuke.WebApi">
