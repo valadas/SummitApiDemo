@@ -1,7 +1,7 @@
 ﻿// MIT License
 // Copyright Eraware
 
-using DotNetNuke.Instrumentation;
+using DotNetNuke.DependencyInjection;
 using Eraware.Modules.SummitApiDemo.Services;
 using System;
 using System.Net;
@@ -15,6 +15,9 @@ namespace Eraware.Modules.SummitApiDemo.Controllers
     /// </summary>
     internal class ModuleExceptionFilterAttribute : ExceptionFilterAttribute
     {
+        [Dependency]
+        private ILoggingService Logger { get; set; }
+
         /// <inheritdoc/>
         public override void OnException(HttpActionExecutedContext actionExecutedContext)
         {
@@ -25,9 +28,7 @@ namespace Eraware.Modules.SummitApiDemo.Controllers
                 return;
             }
 
-            // TODO: When 9.9.0 comes out, this can be replaced with property injection.
-            ILoggingService logger = new LoggingService();
-            logger.LogError(exception.Message, exception);
+            this.Logger.LogError(exception.Message, exception);
 
             if (exception is ArgumentException)
             {

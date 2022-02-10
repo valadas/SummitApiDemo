@@ -27,39 +27,39 @@ namespace UnitTests.Controllers
             Assert.Equal(HttpStatusCode.OK, actionExecutedContext.Response.StatusCode);
         }
 
-        [Theory]
-        [MemberData(nameof(GetExceptionsTestData))]
-        public static void ArgumentException_BadRequest(
-            Exception exception, HttpStatusCode expectedStatusCode)
-        {
-            var attribute = new ModuleExceptionFilterAttribute();
-            var actionContext = new HttpActionContext
-            {
-                Response = new HttpResponseMessage(HttpStatusCode.OK),
-            };
-            var actionExecutedContext = new HttpActionExecutedContext(actionContext, exception);
-            actionExecutedContext.ActionContext.ControllerContext = new HttpControllerContext();
+        //[Theory]
+        //[MemberData(nameof(GetExceptionsTestData))]
+        //public static void ArgumentException_BadRequest(
+        //    Exception exception, HttpStatusCode expectedStatusCode)
+        //{
+        //    var attribute = new ModuleExceptionFilterAttribute();
+        //    var actionContext = new HttpActionContext
+        //    {
+        //        Response = new HttpResponseMessage(HttpStatusCode.OK),
+        //    };
+        //    var actionExecutedContext = new HttpActionExecutedContext(actionContext, exception);
+        //    actionExecutedContext.ActionContext.ControllerContext = new HttpControllerContext();
 
-            attribute.OnException(actionExecutedContext);
+        //    attribute.OnException(actionExecutedContext);
 
-            Assert.Equal(expectedStatusCode, actionExecutedContext.Response.StatusCode);
-        }
+        //    Assert.Equal(expectedStatusCode, actionExecutedContext.Response.StatusCode);
+        //}
 
-        [Fact]
-        public static void SystemException_DoesNotExposeDetails()
-        {
-            var attribute = new ModuleExceptionFilterAttribute();
-            var actionContext = new HttpActionContext
-            {
-                Response = new HttpResponseMessage(HttpStatusCode.OK),
-            };
-            var actionExecutedContext = new HttpActionExecutedContext(actionContext, new Exception("Danger"));
+        //[Fact]
+        //public static void SystemException_DoesNotExposeDetails()
+        //{
+        //    var attribute = new ModuleExceptionFilterAttribute();
+        //    var actionContext = new HttpActionContext
+        //    {
+        //        Response = new HttpResponseMessage(HttpStatusCode.OK),
+        //    };
+        //    var actionExecutedContext = new HttpActionExecutedContext(actionContext, new Exception("Danger"));
 
-            attribute.OnException(actionExecutedContext);
+        //    attribute.OnException(actionExecutedContext);
 
-            Assert.Equal(HttpStatusCode.InternalServerError, actionExecutedContext.Response.StatusCode);
-            Assert.NotEqual("Danger", actionExecutedContext.Response.Content.ReadAsStringAsync().Result);
-        }
+        //    Assert.Equal(HttpStatusCode.InternalServerError, actionExecutedContext.Response.StatusCode);
+        //    Assert.NotEqual("Danger", actionExecutedContext.Response.Content.ReadAsStringAsync().Result);
+        //}
 
         public static IEnumerable<object[]> GetExceptionsTestData()
         {

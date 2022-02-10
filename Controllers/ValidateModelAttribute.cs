@@ -1,6 +1,7 @@
 ﻿// MIT License
 // Copyright Eraware
 
+using DotNetNuke.DependencyInjection;
 using DotNetNuke.Services.Localization;
 using System.Net;
 using System.Net.Http;
@@ -17,6 +18,9 @@ namespace Eraware.Modules.SummitApiDemo.Controllers
     internal class ValidateModelAttribute : ActionFilterAttribute
     {
         private string resourceFileRoot;
+
+        [Dependency]
+        private ILocalizationProvider LocalizationProvider { get; set; }
 
         private string ResourceFileRoot
         {
@@ -39,13 +43,12 @@ namespace Eraware.Modules.SummitApiDemo.Controllers
         {
             if (actionContext.ModelState.IsValid == false)
             {
-                var localization = new LocalizationProvider();
                 var sb = new StringBuilder();
                 foreach (var value in actionContext.ModelState.Values)
                 {
                     foreach (var error in value.Errors)
                     {
-                        var localized = localization.GetString(error.ErrorMessage, this.ResourceFileRoot);
+                        var localized = this.LocalizationProvider.GetString(error.ErrorMessage, this.ResourceFileRoot);
                         if (string.IsNullOrWhiteSpace(localized))
                         {
                             localized = error.ErrorMessage;

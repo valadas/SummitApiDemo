@@ -1,0 +1,793 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TestController
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TestController
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search main-content">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController">
+  
+  
+  <h1 id="Eraware_Modules_SummitApiDemo_Controllers_TestController" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController" class="text-break">Class TestController
+  </h1>
+  <div class="markdown level0 summary"><p>Demo for DNN Summit presentation about webapi.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.Web.Http.ApiController</span></div>
+    <div class="level2"><span class="xref">DotNetNuke.Web.Api.DnnApiController</span></div>
+    <div class="level3"><span class="xref">TestController</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Web.Http.Controllers.IHttpController</span></div>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">DotNetNuke.Web.Api.DnnApiController.PortalSettings</span>
+    </div>
+    <div>
+      <span class="xref">DotNetNuke.Web.Api.DnnApiController.UserInfo</span>
+    </div>
+    <div>
+      <span class="xref">DotNetNuke.Web.Api.DnnApiController.ActiveModule</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.ExecuteAsync(System.Web.Http.Controllers.HttpControllerContext, System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Validate&lt;TEntity&gt;(TEntity)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Validate&lt;TEntity&gt;(TEntity, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.BadRequest()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.BadRequest(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.BadRequest(System.Web.Http.ModelBinding.ModelStateDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Conflict()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Content&lt;T&gt;(System.Net.HttpStatusCode, T)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Content&lt;T&gt;(System.Net.HttpStatusCode, T, System.Net.Http.Formatting.MediaTypeFormatter)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Content&lt;T&gt;(System.Net.HttpStatusCode, T, System.Net.Http.Formatting.MediaTypeFormatter, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Content&lt;T&gt;(System.Net.HttpStatusCode, T, System.Net.Http.Formatting.MediaTypeFormatter, System.Net.Http.Headers.MediaTypeHeaderValue)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Created&lt;T&gt;(System.String, T)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Created&lt;T&gt;(System.Uri, T)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.CreatedAtRoute&lt;T&gt;(System.String, System.Object, T)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.CreatedAtRoute&lt;T&gt;(System.String, System.Collections.Generic.IDictionary&lt;System.String, System.Object&gt;, T)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.InternalServerError()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.InternalServerError(System.Exception)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Json&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Json&lt;T&gt;(T, Newtonsoft.Json.JsonSerializerSettings)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Json&lt;T&gt;(T, Newtonsoft.Json.JsonSerializerSettings, System.Text.Encoding)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.NotFound()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Ok()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Ok&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Redirect(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Redirect(System.Uri)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.RedirectToRoute(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.RedirectToRoute(System.String, System.Collections.Generic.IDictionary&lt;System.String, System.Object&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.ResponseMessage(System.Net.Http.HttpResponseMessage)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.StatusCode(System.Net.HttpStatusCode)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Unauthorized(System.Net.Http.Headers.AuthenticationHeaderValue[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Unauthorized(System.Collections.Generic.IEnumerable&lt;System.Net.Http.Headers.AuthenticationHeaderValue&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Initialize(System.Web.Http.Controllers.HttpControllerContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Dispose(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Configuration</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.ControllerContext</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.ActionContext</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.ModelState</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Request</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.RequestContext</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.Url</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Http.ApiController.User</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Eraware.Modules.SummitApiDemo.Controllers.html">Eraware.Modules.SummitApiDemo.Controllers</a></h6>
+  <h6><strong>Assembly</strong>: Eraware.Modules.SummitApiDemo.dll</h6>
+  <h5 id="Eraware_Modules_SummitApiDemo_Controllers_TestController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TestController : DnnApiController, IHttpController, IDisposable</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/valadas/SummitApiDemo/new/develop/apiSpec/new?filename=Eraware_Modules_SummitApiDemo_Controllers_TestController_GetAsync.md&amp;value=---%0Auid%3A%20Eraware.Modules.SummitApiDemo.Controllers.TestController.GetAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/valadas/SummitApiDemo/blob/develop/Controllers/TestController.cs/#L118">View Source</a>
+  </span>
+  <a id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetAsync_" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetAsync*"></a>
+  <h4 id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetAsync" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetAsync">GetAsync()</h4>
+  <div class="markdown level1 summary"><p>Gets a test message asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+[AllowAnonymous]
+public Task&lt;IHttpActionResult&gt; GetAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Web.Http.IHttpActionResult</span>&gt;</td>
+        <td><p>An awaitable task with a message for result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/valadas/SummitApiDemo/new/develop/apiSpec/new?filename=Eraware_Modules_SummitApiDemo_Controllers_TestController_GetListOfString.md&amp;value=---%0Auid%3A%20Eraware.Modules.SummitApiDemo.Controllers.TestController.GetListOfString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/valadas/SummitApiDemo/blob/develop/Controllers/TestController.cs/#L54">View Source</a>
+  </span>
+  <a id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetListOfString_" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetListOfString*"></a>
+  <h4 id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetListOfString" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetListOfString">GetListOfString()</h4>
+  <div class="markdown level1 summary"><p>Gets a list of strings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+[AllowAnonymous]
+public IEnumerable&lt;string&gt; GetListOfString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>A list of strings.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/valadas/SummitApiDemo/new/develop/apiSpec/new?filename=Eraware_Modules_SummitApiDemo_Controllers_TestController_GetLogo.md&amp;value=---%0Auid%3A%20Eraware.Modules.SummitApiDemo.Controllers.TestController.GetLogo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/valadas/SummitApiDemo/blob/develop/Controllers/TestController.cs/#L130">View Source</a>
+  </span>
+  <a id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetLogo_" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetLogo*"></a>
+  <h4 id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetLogo" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetLogo">GetLogo()</h4>
+  <div class="markdown level1 summary"><p>Gets the current site logo as a download.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+[AllowAnonymous]
+public IHttpActionResult GetLogo()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Http.IHttpActionResult</span></td>
+        <td><p>A browser download of the logo.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/valadas/SummitApiDemo/new/develop/apiSpec/new?filename=Eraware_Modules_SummitApiDemo_Controllers_TestController_GetMessage.md&amp;value=---%0Auid%3A%20Eraware.Modules.SummitApiDemo.Controllers.TestController.GetMessage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/valadas/SummitApiDemo/blob/develop/Controllers/TestController.cs/#L75">View Source</a>
+  </span>
+  <a id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetMessage_" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetMessage*"></a>
+  <h4 id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetMessage" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetMessage">GetMessage()</h4>
+  <div class="markdown level1 summary"><p>Gets a message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+[AllowAnonymous]
+public HttpResponseMessage GetMessage()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Net.Http.HttpResponseMessage</span></td>
+        <td><p>The actual HttpResponseMessage.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/valadas/SummitApiDemo/new/develop/apiSpec/new?filename=Eraware_Modules_SummitApiDemo_Controllers_TestController_GetSanitized.md&amp;value=---%0Auid%3A%20Eraware.Modules.SummitApiDemo.Controllers.TestController.GetSanitized%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/valadas/SummitApiDemo/blob/develop/Controllers/TestController.cs/#L144">View Source</a>
+  </span>
+  <a id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetSanitized_" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetSanitized*"></a>
+  <h4 id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetSanitized" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetSanitized">GetSanitized()</h4>
+  <div class="markdown level1 summary"><p>Returns a sanitied string that used to contain XSS scripts.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+[AllowAnonymous]
+public IHttpActionResult GetSanitized()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Http.IHttpActionResult</span></td>
+        <td><p>Sanitized string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/valadas/SummitApiDemo/new/develop/apiSpec/new?filename=Eraware_Modules_SummitApiDemo_Controllers_TestController_GetSlow.md&amp;value=---%0Auid%3A%20Eraware.Modules.SummitApiDemo.Controllers.TestController.GetSlow%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/valadas/SummitApiDemo/blob/develop/Controllers/TestController.cs/#L158">View Source</a>
+  </span>
+  <a id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetSlow_" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetSlow*"></a>
+  <h4 id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetSlow" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetSlow">GetSlow()</h4>
+  <div class="markdown level1 summary"><p>Gets a random string array very slowly to simulate heavy processing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+[AllowAnonymous]
+public Task&lt;IHttpActionResult&gt; GetSlow()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Web.Http.IHttpActionResult</span>&gt;</td>
+        <td><p>Probably a slow response.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/valadas/SummitApiDemo/new/develop/apiSpec/new?filename=Eraware_Modules_SummitApiDemo_Controllers_TestController_GetSlowWithDataCache.md&amp;value=---%0Auid%3A%20Eraware.Modules.SummitApiDemo.Controllers.TestController.GetSlowWithDataCache%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/valadas/SummitApiDemo/blob/develop/Controllers/TestController.cs/#L170">View Source</a>
+  </span>
+  <a id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetSlowWithDataCache_" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetSlowWithDataCache*"></a>
+  <h4 id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetSlowWithDataCache" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetSlowWithDataCache">GetSlowWithDataCache()</h4>
+  <div class="markdown level1 summary"><p>Gets a random string array very slowly but uses datacache if available.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+[AllowAnonymous]
+public Task&lt;IHttpActionResult&gt; GetSlowWithDataCache()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Web.Http.IHttpActionResult</span>&gt;</td>
+        <td><p>Probably a slow response.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/valadas/SummitApiDemo/new/develop/apiSpec/new?filename=Eraware_Modules_SummitApiDemo_Controllers_TestController_GetSlowWithOutputCache.md&amp;value=---%0Auid%3A%20Eraware.Modules.SummitApiDemo.Controllers.TestController.GetSlowWithOutputCache%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/valadas/SummitApiDemo/blob/develop/Controllers/TestController.cs/#L208">View Source</a>
+  </span>
+  <a id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetSlowWithOutputCache_" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetSlowWithOutputCache*"></a>
+  <h4 id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetSlowWithOutputCache" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetSlowWithOutputCache">GetSlowWithOutputCache()</h4>
+  <div class="markdown level1 summary"><p>Gets a random string array very slowly but uses output cache which caches the whole response.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[CacheWebApi]
+[HttpGet]
+[AllowAnonymous]
+public HttpResponseMessage GetSlowWithOutputCache()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Net.Http.HttpResponseMessage</span></td>
+        <td><p>Probably a slow response.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/valadas/SummitApiDemo/new/develop/apiSpec/new?filename=Eraware_Modules_SummitApiDemo_Controllers_TestController_GetString.md&amp;value=---%0Auid%3A%20Eraware.Modules.SummitApiDemo.Controllers.TestController.GetString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/valadas/SummitApiDemo/blob/develop/Controllers/TestController.cs/#L42">View Source</a>
+  </span>
+  <a id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetString_" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetString*"></a>
+  <h4 id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetString" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetString">GetString()</h4>
+  <div class="markdown level1 summary"><p>Gets a string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+[AllowAnonymous]
+public string GetString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/valadas/SummitApiDemo/new/develop/apiSpec/new?filename=Eraware_Modules_SummitApiDemo_Controllers_TestController_GetSync.md&amp;value=---%0Auid%3A%20Eraware.Modules.SummitApiDemo.Controllers.TestController.GetSync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/valadas/SummitApiDemo/blob/develop/Controllers/TestController.cs/#L88">View Source</a>
+  </span>
+  <a id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetSync_" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetSync*"></a>
+  <h4 id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetSync" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetSync">GetSync()</h4>
+  <div class="markdown level1 summary"><p>Gets a test message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+[AllowAnonymous]
+public IHttpActionResult GetSync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Http.IHttpActionResult</span></td>
+        <td><p>A test message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/valadas/SummitApiDemo/new/develop/apiSpec/new?filename=Eraware_Modules_SummitApiDemo_Controllers_TestController_GetVoid.md&amp;value=---%0Auid%3A%20Eraware.Modules.SummitApiDemo.Controllers.TestController.GetVoid%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/valadas/SummitApiDemo/blob/develop/Controllers/TestController.cs/#L29">View Source</a>
+  </span>
+  <a id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetVoid_" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetVoid*"></a>
+  <h4 id="Eraware_Modules_SummitApiDemo_Controllers_TestController_GetVoid" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.GetVoid">GetVoid()</h4>
+  <div class="markdown level1 summary"><p>Gets nothing, could be used to delete a record or some other operation that does not return anything back.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+[AllowAnonymous]
+public void GetVoid()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/valadas/SummitApiDemo/new/develop/apiSpec/new?filename=Eraware_Modules_SummitApiDemo_Controllers_TestController_NoSqlInjection_System_String_.md&amp;value=---%0Auid%3A%20Eraware.Modules.SummitApiDemo.Controllers.TestController.NoSqlInjection(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/valadas/SummitApiDemo/blob/develop/Controllers/TestController.cs/#L255">View Source</a>
+  </span>
+  <a id="Eraware_Modules_SummitApiDemo_Controllers_TestController_NoSqlInjection_" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.NoSqlInjection*"></a>
+  <h4 id="Eraware_Modules_SummitApiDemo_Controllers_TestController_NoSqlInjection_System_String_" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.NoSqlInjection(System.String)">NoSqlInjection(String)</h4>
+  <div class="markdown level1 summary"><p>This is better.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+[AllowAnonymous]
+public IHttpActionResult NoSqlInjection(string displayName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">displayName</span></td>
+        <td><p>The display name to search for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Http.IHttpActionResult</span></td>
+        <td><p>A list of emails.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/valadas/SummitApiDemo/new/develop/apiSpec/new?filename=Eraware_Modules_SummitApiDemo_Controllers_TestController_SqlInjection_System_String_.md&amp;value=---%0Auid%3A%20Eraware.Modules.SummitApiDemo.Controllers.TestController.SqlInjection(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/valadas/SummitApiDemo/blob/develop/Controllers/TestController.cs/#L236">View Source</a>
+  </span>
+  <a id="Eraware_Modules_SummitApiDemo_Controllers_TestController_SqlInjection_" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.SqlInjection*"></a>
+  <h4 id="Eraware_Modules_SummitApiDemo_Controllers_TestController_SqlInjection_System_String_" data-uid="Eraware.Modules.SummitApiDemo.Controllers.TestController.SqlInjection(System.String)">SqlInjection(String)</h4>
+  <div class="markdown level1 summary"><p>Never do this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+[AllowAnonymous]
+public IHttpActionResult SqlInjection(string displayName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">displayName</span></td>
+        <td><p>The user display name to filter by.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Http.IHttpActionResult</span></td>
+        <td><p>A list of display names.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Web.Http.Controllers.IHttpController</span>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/valadas/SummitApiDemo/new/develop/apiSpec/new?filename=Eraware_Modules_SummitApiDemo_Controllers_TestController.md&amp;value=---%0Auid%3A%20Eraware.Modules.SummitApiDemo.Controllers.TestController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/valadas/SummitApiDemo/blob/develop/Controllers/TestController.cs/#L24" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      ﻿
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="toggle-mode pull-right">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+              <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+            </div>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/mermaid.min.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>  </body>
+</html>

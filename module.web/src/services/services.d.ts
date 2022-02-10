@@ -64,6 +64,79 @@ export declare class LocalizationClient extends ClientBase {
     getLocalization(signal?: AbortSignal | undefined): Promise<LocalizationViewModel>;
     protected processGetLocalization(response: Response): Promise<LocalizationViewModel>;
 }
+export declare class TestClient extends ClientBase {
+    private http;
+    private baseUrl;
+    protected jsonParseReviver: ((key: string, value: any) => any) | undefined;
+    constructor(configuration: ConfigureRequest, baseUrl?: string, http?: {
+        fetch(url: RequestInfo, init?: RequestInit): Promise<Response>;
+    });
+    /**
+     * Gets nothing, could be used to delete a record or some other operation that does not return anything back.
+     */
+    getVoid(signal?: AbortSignal | undefined): Promise<void>;
+    protected processGetVoid(response: Response): Promise<void>;
+    /**
+     * Gets a string.
+     * @return A string.
+     */
+    getString(signal?: AbortSignal | undefined): Promise<string | null>;
+    protected processGetString(response: Response): Promise<string | null>;
+    /**
+     * Gets a list of strings.
+     * @return A list of strings.
+     */
+    getListOfString(signal?: AbortSignal | undefined): Promise<string[] | null>;
+    protected processGetListOfString(response: Response): Promise<string[] | null>;
+    /**
+     * Gets a message.
+     * @return The actual HttpResponseMessage.
+     */
+    getMessage(signal?: AbortSignal | undefined): Promise<FileResponse | null>;
+    protected processGetMessage(response: Response): Promise<FileResponse | null>;
+    /**
+     * Gets a test message.
+     * @return A test message.
+     */
+    getSync(signal?: AbortSignal | undefined): Promise<FileResponse | null>;
+    protected processGetSync(response: Response): Promise<FileResponse | null>;
+    /**
+     * Gets a test message asynchronously.
+     * @return An awaitable task with a message for result.
+     */
+    get(signal?: AbortSignal | undefined): Promise<FileResponse | null>;
+    protected processGet(response: Response): Promise<FileResponse | null>;
+    /**
+     * Gets the current site logo as a download.
+     * @return A browser download of the logo.
+     */
+    getLogo(signal?: AbortSignal | undefined): Promise<FileResponse | null>;
+    protected processGetLogo(response: Response): Promise<FileResponse | null>;
+    /**
+     * Returns a sanitied string that used to contain XSS scripts.
+     * @return Sanitized string.
+     */
+    getSanitized(signal?: AbortSignal | undefined): Promise<FileResponse | null>;
+    protected processGetSanitized(response: Response): Promise<FileResponse | null>;
+    /**
+     * Gets a random string array very slowly to simulate heavy processing.
+     * @return Probably a slow response.
+     */
+    getSlow(signal?: AbortSignal | undefined): Promise<FileResponse | null>;
+    protected processGetSlow(response: Response): Promise<FileResponse | null>;
+    /**
+     * Gets a random string array very slowly but uses datacache if available.
+     * @return Probably a slow response.
+     */
+    getSlowWithDataCache(signal?: AbortSignal | undefined): Promise<FileResponse | null>;
+    protected processGetSlowWithDataCache(response: Response): Promise<FileResponse | null>;
+    /**
+     * Gets a random string array very slowly but uses output cache which caches the whole response.
+     * @return Probably a slow response.
+     */
+    getSlowWithOutputCache(signal?: AbortSignal | undefined): Promise<FileResponse | null>;
+    protected processGetSlowWithOutputCache(response: Response): Promise<FileResponse | null>;
+}
 /** Represents the basic information about an item. */
 export declare class ItemViewModel implements IItemViewModel {
     /** Gets or sets the id of the item. */
@@ -281,6 +354,14 @@ export interface IUIInfo {
     shownItems?: string | undefined;
     /** Gets or sets the Yes localized text. */
     yes?: string | undefined;
+}
+export interface FileResponse {
+    data: Blob;
+    status: number;
+    fileName?: string;
+    headers?: {
+        [name: string]: any;
+    };
 }
 export declare class ApiException extends Error {
     message: string;
